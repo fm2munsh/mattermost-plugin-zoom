@@ -127,6 +127,8 @@ export default class PostTypeZoom extends React.PureComponent {
                     <h2 style={style.summary}>
                         {'Meeting Summary'}
                     </h2>
+                    <span style={style.summaryItem}>{'Started By: ' + this.props.creatorName}</span>
+                    <br/>
                     <span style={style.summaryItem}>{'Date: ' + start}</span>
                     <br/>
                     <span style={style.summaryItem}>{'Meeting Length: ' + length + ' minute(s)'}</span>
